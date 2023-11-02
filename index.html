@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <span id="pass-box">Testing</span>
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" id="total-char" max="30" min="2" value="2">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <label for="Upper-Case">
+                    <div class="left">
+                        Contains Upper
+                    </div>
+
+                </label>
+
+                <div class="right">
+                    <input type="checkbox" id="upper-case" checked>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <label for="Lower-Case">
+                    <div class="left">
+                        Contains Lower
+                    </div>
+
+                </label>
+
+                <div class="right">
+                    <input type="checkbox" id="lower-case" checked>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <label for="Number">
+                    <div class="left">
+                        Contains Number
+                    </div>
+
+                </label>
+
+                <div class="right">
+                    <input type="checkbox" id="number-case" checked>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <label for="Symbol">
+                    <div class="left">
+                        Contains symbol
+                    </div>
+
+                </label>
+
+                <div class="right">
+                    <input type="checkbox" id="symbol-case" checked>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div id="btn">
+                    <button> Generate</button>
+                </div>
+                
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
